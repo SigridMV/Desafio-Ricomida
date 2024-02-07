@@ -2,6 +2,8 @@
 
 ¡Bienvenido al Desafío Ricomida! Este proyecto fue creado como parte de los requisitos para el curso de Fullstack JavaScript Trainee de Desafío Latam. 
 
+https://sigridmv.github.io/Desafio-Ricomida/
+
 ## Descripción
 
 Este proyecto se centra en la implementación de código HTML, CSS y JavaScript para crear una página web interactiva y visualmente atractiva. Utiliza librerías como jQuery, Bootstrap y Font Awesome para mejorar la experiencia del usuario.
