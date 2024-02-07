@@ -1,0 +1,176 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.lobster-regular {
+  font-family: 'Lobster', sans-serif;
+  
+}
+
+.cabin-regular {
+  font-family: 'Cabin', sans-serif;
+  
+}
+
+/* ---- BARRA DE NAVEGACION -----*/
+
+.navbar a{
+  color: #FFFFFF;
+}
+
+.container-fluid{
+  background-color: #373A3C ;
+  
+}
+
+.navbar-brand{
+  font-size:37px;
+}
+
+.nav-link{
+  font-size: 16px;
+}
+
+/*-----header------*/
+
+.header-title{
+  font-size:25px;
+}
+
+.header-text{
+  font-size:16px;
+}
+
+.btn.btn-light {
+  border: 1px solid #DDDDDD;
+  font-size: 13px;
+}
+
+/*---------CAROUSEL----------*/
+
+.carousel-inner{
+  margin: 40px 0 40px 0;
+}
+.carousel-indicators {
+  top: 105%;
+}
+
+.carousel-indicators li{
+  list-style: none;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #000000;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carrusel img {
+  width: 16rem;
+  margin: 50px 0;
+  padding: 5px;
+}
+
+/*------ Ingredientes--------*/
+
+.segunda-linea{
+  margin-top: 50px;
+  margin-bottom: 50px
+}
+
+.ingrediente-preparacion-titulo ul{
+ list-style-type: none;
+}
+
+.ingrediente-preparacion-titulo h4{
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.ingrediente-preparacion-titulo {
+  margin-top: 30px;
+}
+
+
+.ingrediente li {
+  margin-left: -40px;
+  padding: 0;
+}
+
+.preparacion li {
+  margin-left: -27px;
+}
+
+/* ------ CARDS-------*/
+
+.card-item {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.card-img-top{
+  width: 100%;
+  height: auto;
+}
+
+.card-title{
+  font-size:17px;
+}
+
+.card{
+padding: 0;
+}
+
+/*-- NEWS LETTER----*/
+
+.newsletter {
+  color: white;
+  text-align: center;
+  background: #dc3545;
+  padding: 80px 20px 50px 20px;
+}
+
+.newsletter button {
+  margin: 30px 0;
+  padding: 5px 50px;
+}
+
+.newsletter h2 {
+  font-size: 30px;
+}
+
+/*--- FOOTER ---*/
+
+footer{
+  background-color: #373A3C ;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 30px;
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  .header-principal {
+    text-align: center;
+  }
+
+  .header-principal h1 {
+    margin-top: 2rem;
+  }
+
+  .ingrediente-preparacion-titulo {
+    margin-top: 3rem;
+  }
+  
+  .primera-linea {
+    border: 1px solid #000000;
+    visibility: visible;
+  }
+
+}
